@@ -13,7 +13,7 @@ if valor == 1:
     else:
         b = float(input("Digite o valor de b: "))
         calculo1 = -b / a
-        print(calculo1)
+        print(f"{calculo1:.2f}")
 
 if valor == 2:
     print("A equação é do segundo grau.")
@@ -28,10 +28,10 @@ if valor == 2:
     raiz2 = (-b - (calculo2 ** (1/2))) / 2 * a
 
     if calculo2 < 0:
-        print("A equação não possui raizes reais")
+        print("A equação não possui raízes reais")
     
     else:
         if calculo2 == 0:
-            print(f"A equação possui apenas uma raiz real, {raiz1:.2f}")
+            print(f"A equação possui apenas uma raíz real, {raiz1:.2f}")
         if calculo2 > 0:
-            print(f"A equação possui duas raizes reais, {raiz1:.2f}, {raiz2:.2f}")
+            print(f"A equação possui duas raízes reais, {raiz1:.2f}, {raiz2:.2f}")
