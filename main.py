@@ -16,7 +16,7 @@ if valor == 1:
         print(f"{calculo1:.2f}")
 
 if valor == 2:
-    print("A equação é do segundo grau.")
+    print("A equação é do segundo grau")
     a = float(input("Digite o valor de a: "))
     if a == 0:
         print("Valor de a inválido")
