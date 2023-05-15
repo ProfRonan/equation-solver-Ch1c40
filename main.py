@@ -32,6 +32,6 @@ if valor == 2:
     
         else:
             if calculo2 == 0:
-                print(f"A equação possui apenas uma raiz real, {raiz1:.2f}")
+                print(f"A equação possui uma raiz real, {raiz1:.2f}")
             elif calculo2 > 0:
                 print(f"A equação possui duas raízes reais, {raiz1:.2f}, {raiz2:.2f}")
